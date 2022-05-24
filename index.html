@@ -5,13 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Takeaway</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
+    <div class="top">
+        <ul class="top__list">
+            <li class="top__item">
+                <p class="top__desc">We're open and available for takeaway & delivery.</p>
+            </li>
+            <li class="top__item">
+                <h3 class="top__heading">Order Now</h3>
+            </li>
+        </ul>
+    </div>
+  
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="header__logo-img" src="./img/logo1.svg" alt="logo" width="40" height="51">
+            </a>
+            
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link sitenav__link-one" href="#">Home</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Order</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Company</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">FAQ</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Contact</a>
+                    </li>
+                    
+  
+                </ul>
+                <img class="sitenav__img" src="./img/Frame.png" alt="img" width="55" height="55">
+            </nav>
+           
+        </div>
+    </header>
     <!--MAIN-->
-    <main></main>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__doc">
+                    <h1 class="hero__heading">Beautiful food & takeaway,<span class="hero__span">delivered</span>  to your door.</h1>
+                    <p class="hero__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+
+                    <button class="button hero__button">Place an Order</button>
+
+
+                    <div class="hero__box-bottom">
+                        <img class="hero__box-bottom-img" src="./img/Group 178.png" alt="star" width="110" height="27">
+                       <div class="hero__box-top">
+                        <a class="hero__box-link" href="#">4.8 out of 5</a>
+                        <span class="hero__box-tittle">based on 2000+ reviews</span>
+                       </div>
+                       
+                    </div>
+                </div>
+
+                <img class="hero__group-img" src="./img/hero1.png" alt="food-img" width="600" height="580">
+            </div>
+        </section>
+    </main>
     <!--FOOTER-->
     <footer></footer>
 </body>
