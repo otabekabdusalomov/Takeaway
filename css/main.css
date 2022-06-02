@@ -573,4 +573,54 @@ img {
   letter-spacing: 0.36px;
   color: #546285;
   padding-bottom: 47px;
+}
+
+.works {
+  padding-top: 260px;
+  padding-bottom: 126px;
+}
+.works__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 1.65px;
+  color: #35B8BE;
+  padding-bottom: 62px;
+}
+.works__list {
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.works__item + .works__item {
+  margin-left: 100px;
+}
+.works__img {
+  padding-bottom: 40px;
+}
+.works__tittle {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.66px;
+  color: #08090A;
+  padding-bottom: 15px;
+}
+.works__desc {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #546285;
 }/*# sourceMappingURL=main.css.map */
